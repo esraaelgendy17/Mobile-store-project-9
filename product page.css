@@ -1,0 +1,88 @@
+header {
+border: 2px solid black;
+height: 150px;
+margin: 10px 5px 0 5px;
+}
+
+#logo {
+float: left;
+width:40px;
+height:60px;
+margin-top:10px;
+}
+
+#search {
+display: inline-block;
+margin-left: 200px;
+margin-top: 50px;
+}
+#search form input {
+height: 40px; 
+}
+#let's go { 
+background-color: grey;
+color:black;
+font-size:16px;
+width: 50px;
+font-weight:bold;
+}
+#let's go:hover{
+cursorL: pointer;
+background-color: crimson;
+font-family:cursive;
+}
+
+nav ul {
+list-style-type:none;
+text-align:center;
+margin:0;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li a {
+display: inline-block;
+width: 130px; 
+color:black;
+text-decoration: none;
+padding: 6px;
+}
+
+nav {
+background-color: lightgray;
+margin:13px;
+padding:4px;
+font-size:17px
+}
+
+nav ul li a:hover{
+background-color: #B22222;
+color:black
+}
+
+#leftform{
+float:left;
+margin-left:10px
+}
+
+#rightform{
+float:right;
+margin-right:10px;
+}
+
+article table {
+margin:auto;
+}
+
+article table tr td {
+text-align:center;
+border: 2px solid black;
+}
+
+.price{
+color: steelblue;
+font-weight: bold;
+font-size:17px;
+}

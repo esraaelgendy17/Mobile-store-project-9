@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> link CSS to html </title>
+<link rel="stylesheet" href="product page.css">
+
+
+<style>
+body{background-color: white}
+.x{background-color: grey;
+overflow: hidden;}
+.x a{ float: left; color:black; text-align:center; padding:15px 17px; text-decoration: none; font-size;17px}
+.x a:hover { background-color: #B22222}
+.x a.active { background-color: lightblue}
+</style>
+
+<body>
+
+<div class="x">
+<a class="active" href="Home.html"> Home </a>
+<a href="Contact.html"> Contact </a>
+<a href="Product.html"> Product </a>
+<a href="Brand.html"> Brand </a>
+<input type="text" placeholder="Search...">
+</div>
+
+<header>
+
+<div id="logo">
+<img src="./assets/images/images.jpg" width="130px">
+</div>
+
+<div id="search">
+<form>
+<input type="search" placeholder="type your product" size="80px">
+<input id="Let's go" type="button" value="Let's go">
+</form>
+</div>
+</header>
+
+<nav>
+<ul> 
+<li> <a herf="navigation.html">Oppo </a></li>
+<li> <a herf="#">samsung</a></li>
+<li> <a herf="#">Tablets</a></li>
+<li> <a herf="#">Airpods</a></li>
+<li> <a herf="#">Iphone</a></li>
+<li> <a herf="#">Realme</a></li>
+
+</ul>
+</nav>
+
+<article>
+<form id="leftform">
+<label> Filters </label> 
+<select>
+<option> Brand</option>
+<option> Category</option> 
+<option selected> Price</option> 
+<option disabled>None‹/option>
+</select>
+</form> 
+
+
+<form id="rightform">
+<label> Choose by </label> 
+<select>
+<option> New Items </option>
+<option> Price: High to low</option> 
+<option> Price: low to High</option>
+</select>
+</form><br>
+
+
+<table>
+<tr>
+<td width="30%">
+<a href="#"> <img src="c.jpg" width="200px"></a>
+<p> Oppo Reno 6 4g - <br>
+128GB, 3GB RAM, 4G LTE, snapdragon 720 <br>
+<span class="price"> 12,000 EGP</span> </p>
+</td>
+
+<td width="30%">
+<a href="#"> <img src="m.jpg" width="200px"></a>
+<p> Samsung Galaxy S23 Altra 4g - <br>
+256GB, 8GB RAM, 4G LTE, <br>
+<span class="price"> 46,000 EGP</span> </p>
+</td>
+
+<td width="30%">
+<a href="#"> <img src="l.jpg" width="200px"></a>
+<p> IPhone 14 Pro max - <br>
+256GB, 8GB RAM, 4G LTE, <br>
+<span class="price"> 48,000 EGP</span> </p>
+</td>
+
+<tr>
+<td width="30%">
+<a href="#"> <img src="8.jpg" width="200px"></a>
+<p> Huawei matepad Pro - <br>
+128GB, 8GB RAM, 4G LTE, <br>
+<span class="price"> 10,500 EGP</span> </p>
+</td>
+
+
+<td width="30%">
+<a href="#"> <img src="3.jpg" width="200px"></a>
+<p> Airpods Pro - <br>
+Noise Cancelling Earphones with Long Lasting Battery Life, <br>
+<span class="price">  4400 EGP</span> </p>
+</td>
+
+
+<td width="30%">
+<a href="#"> <img src="9.jpg" width="200px"></a>
+<p> Realme X2  - <br>
+128GB, 3GB RAM, 4G LTE, Snapdragon730G  <br>
+<span class="price">  3340 EGP</span> </p>
+</td>
+</tr>
+
+</table>
+</article>
+
+</body>
+</head>
+</html>
